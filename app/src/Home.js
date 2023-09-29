@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DevPic from "./img/DevPic3.jpg"
+import DevifyLogo from "./img/DevifyLogo.png"
 
 
 export default function Home() {
@@ -26,7 +27,7 @@ return (
         <h3 className="pt-3" style={textFont}>Your Vision, Our Code!</h3>
       </div>
       <div className="col-md-6 text-center">
-      <img src={DevPic} alt="Your Alt Text" className="img-fluid" style={imgStyle}
+      <img src={DevPic} alt="Cartoon Software Engineer Photo" className="img-fluid" style={imgStyle}
           />
       </div>
     </div>

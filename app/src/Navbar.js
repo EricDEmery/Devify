@@ -24,13 +24,13 @@ export default function Navbar(props) {
                     <a className="nav-link active" onClick={() => props.setPage("Home")} aria-current="page">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Features</a>
+                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Products</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Pricing</a>
+                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">About Us</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link disabled" aria-disabled="true" aria-current="page">Disabled</a>
+                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Contact</a>
                 </li>
             </ul>
         </div>
