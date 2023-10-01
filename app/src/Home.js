@@ -17,7 +17,7 @@ const textFont = {
 
 const imgStyle = {
   maxWidth: '100%',
-}
+} 
 
 return (
   <div className="container">
@@ -27,8 +27,7 @@ return (
         <h3 className="pt-3" style={textFont}>Your Vision, Our Code!</h3>
       </div>
       <div className="col-md-6 text-center">
-      <img src={DevPic} alt="Cartoon Software Engineer Photo" className="img-fluid" style={imgStyle}
-          />
+      <img src={DevPic} alt="Cartoon Software Engineer Photo" className="img-fluid" style={imgStyle}/>
       </div>
     </div>
   </div>
