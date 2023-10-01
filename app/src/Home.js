@@ -25,7 +25,7 @@ export default function Home() {
       <div className="row">
         <div className="col-sm-4 text-center">
           <h3 className="slogan">Website Development</h3>
-          <p className="heading">
+          <p className="pg">
             At Devify, we take pride in crafting websites with responsive user
             interfaces tailored to our clients' unique needs. We understand the
             importance of a seamless user experience in today's digital
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="col-sm-4 text-center">
           <h3 className="slogan">E-Commerce Solutions</h3>
-          <p className="heading">
+          <p className="pg">
             We specialize in crafting dynamic e-commerce solutions that redefine
             online shopping experiences for our clients. Our e-commerce sites
             are not just storefronts; they are interactive platforms where
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className="col-sm-4 text-center">
           <h3 className="slogan">Ongoing Website Maintenance</h3>
-          <p className="heading">
+          <p className="pg">
             Our commitment to our clients doesn't end with the launch of their
             websites; it's just the beginning. We offer comprehensive website
             maintenance services tailored to ensure the continued success of the
