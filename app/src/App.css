@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  font-family: Orbitron, sans-serif;
+  font-size: 112px;
+}
+
+.slogan {
+  font-family: Russo One, sans-serif;
+  font-size: 28px;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
