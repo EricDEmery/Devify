@@ -6,7 +6,7 @@ import Ecom from "./img/ECom.png";
 import Maintain from "./img/Maintain2.png";
 import WebDev from "./img/WebDev3.jpg";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
     <div className="container">
@@ -14,7 +14,7 @@ export default function Home() {
         <div className="col-md-6 text-center">
           <h1 className="title">Devify</h1>
           <h3 className="slogan pt-3 pb-3">Your Vision, Our Code!</h3>
-          <button type="button" class="btn btn-dark">Contact Us</button>
+          <button type="button" class="btn btn-dark" onClick={() => props.setPage("Contact")}>Contact Us</button>
         </div>
         <div className="col-md-6 text-center">
           <img

@@ -11,7 +11,7 @@ export default function App() {
     return (
       <>
       <Navbar setPage={setPage} />
-      <Home />
+      <Home setPage={setPage} />
 
       </>
     );
@@ -20,7 +20,7 @@ export default function App() {
    return (
       <>
         <Navbar setPage={setPage}/>
-        <Contact />
+        <Contact setPage={setPage} />
       
       </>
     );
