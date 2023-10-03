@@ -60,3 +60,11 @@
 .img-fluid {
   max-width: 100%;
 }
+
+.img-style {
+  max-width: 90%;
+}
+
+.custom-card {
+  border: none !important;
+}

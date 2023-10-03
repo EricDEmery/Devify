@@ -2,6 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DevPic from "./img/DevPic3.jpg";
 import DevifyLogo from "./img/DevifyLogo.png";
+import Ecom from "./img/ECom.png";
+import Maintain from "./img/Maintain2.png";
+import WebDev from "./img/WebDev.jpg";
 
 export default function Home() {
   return (
@@ -24,20 +27,26 @@ export default function Home() {
       </div>
       <div className="row">
         <div className="col-sm-4 text-center">
-          <h3 className="slogan">Website Development</h3>
-          <p className="pg">
-            At Devify, we take pride in crafting websites with responsive user
-            interfaces tailored to our clients' unique needs. We understand the
-            importance of a seamless user experience in today's digital
-            landscape, where users access websites on a myriad of devices. Our
-            team of dedicated developers ensures that every website we create is
-            not only visually appealing but also functions flawlessly across
-            various platforms and screen sizes.
-          </p>
+          <div className="card custom-card" style={{ width: "20rem" }}>
+            <img src={WebDev} className="card-img-top img-style" alt="Web Developer Graphic" />
+            <div className="card-body">
+              <h3 className="slogan">Website Development</h3>
+              <p className="card-text pg">
+                At Devify, we take pride in crafting websites with responsive
+                user interfaces tailored to our clients' unique needs.Our team of 
+                dedicated developers ensures that every website we create is not 
+                only visually appealing but also functions flawlessly across various 
+                platforms and screen sizes.
+              </p>
+            </div>
+          </div>
         </div>
         <div className="col-sm-4 text-center">
+        <div className="card custom-card" style={{ width: "20rem" }}>
+            <img src={Ecom} className="card-img-top" alt="Web Developer Graphic" />
+            <div className="card-body">
           <h3 className="slogan">E-Commerce Solutions</h3>
-          <p className="pg">
+          <p className="card-text pg">
             We specialize in crafting dynamic e-commerce solutions that redefine
             online shopping experiences for our clients. Our e-commerce sites
             are not just storefronts; they are interactive platforms where
@@ -46,9 +55,14 @@ export default function Home() {
             seamless transactions and hassle-free browsing.
           </p>
         </div>
+        </div>
+        </div>
         <div className="col-sm-4 text-center">
+        <div className="card custom-card" style={{ width: "20rem" }}>
+            <img src={Maintain} className="card-img-top pb-4" alt="Web Developer Graphic" />
+            <div className="card-body">
           <h3 className="slogan">Ongoing Website Maintenance</h3>
-          <p className="pg">
+          <p className="card-text pg">
             Our commitment to our clients doesn't end with the launch of their
             websites; it's just the beginning. We offer comprehensive website
             maintenance services tailored to ensure the continued success of the
@@ -58,6 +72,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
