@@ -62,9 +62,13 @@
 }
 
 .img-style {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .custom-card {
   border: none !important;
+}
+
+.img-style {
+  max-height: 100%;
 }

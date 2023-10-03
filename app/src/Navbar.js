@@ -21,16 +21,16 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className="nav-link active" onClick={() => props.setPage("Home")} aria-current="page">Home</a>
+                    <a className="nav-link active" href="#" onClick={() => props.setPage("Home")} aria-current="page">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Products</a>
+                    <a className="nav-link" href="#" onClick={() => props.setPage("Home")} aria-current="page">Products</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">About Us</a>
+                    <a className="nav-link" href="#" onClick={() => props.setPage("Home")} aria-current="page">About Us</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" onClick={() => props.setPage("Home")} aria-current="page">Contact</a>
+                    <a className="nav-link" href="#" onClick={() => props.setPage("Contact")} aria-current="page">Contact</a>
                 </li>
             </ul>
         </div>

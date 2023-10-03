@@ -4,15 +4,17 @@ import DevPic from "./img/DevPic3.jpg";
 import DevifyLogo from "./img/DevifyLogo.png";
 import Ecom from "./img/ECom.png";
 import Maintain from "./img/Maintain2.png";
-import WebDev from "./img/WebDev.jpg";
+import WebDev from "./img/WebDev3.jpg";
 
 export default function Home() {
   return (
+    <>
     <div className="container">
       <div className="row justify-content-center align-items-center min-vh-100">
         <div className="col-md-6 text-center">
           <h1 className="title">Devify</h1>
-          <h3 className="slogan pt-3">Your Vision, Our Code!</h3>
+          <h3 className="slogan pt-3 pb-3">Your Vision, Our Code!</h3>
+          <button type="button" class="btn btn-dark">Contact Us</button>
         </div>
         <div className="col-md-6 text-center">
           <img
@@ -25,7 +27,7 @@ export default function Home() {
       <div className="text-center">
         <h1 className="services pb-5">Our Services</h1>
       </div>
-      <div className="row">
+      <div className="row pt-5">
         <div className="col-sm-4 text-center">
           <div className="card custom-card" style={{ width: "20rem" }}>
             <img src={WebDev} className="card-img-top img-style" alt="Web Developer Graphic" />
@@ -33,10 +35,12 @@ export default function Home() {
               <h3 className="slogan">Website Development</h3>
               <p className="card-text pg">
                 At Devify, we take pride in crafting websites with responsive
-                user interfaces tailored to our clients' unique needs.Our team of 
+                user interfaces tailored to our clients' unique needs. Our team of 
                 dedicated developers ensures that every website we create is not 
                 only visually appealing but also functions flawlessly across various 
-                platforms and screen sizes.
+                platforms and screen sizes. We work directly with our clients every
+                step of the way to ensure 100% satisfaction. Let us help you build the
+                online presence of your dreams.
               </p>
             </div>
           </div>
@@ -59,7 +63,7 @@ export default function Home() {
         </div>
         <div className="col-sm-4 text-center">
         <div className="card custom-card" style={{ width: "20rem" }}>
-            <img src={Maintain} className="card-img-top pb-4" alt="Web Developer Graphic" />
+            <img src={Maintain} className="card-img-top" alt="Web Developer Graphic" />
             <div className="card-body">
           <h3 className="slogan">Ongoing Website Maintenance</h3>
           <p className="card-text pg">
@@ -75,5 +79,8 @@ export default function Home() {
     </div>
     </div>
     </div>
+
+
+    </>
   );
 }
