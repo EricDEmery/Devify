@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Contact from './Contact';
 
 export default function App() {
-  const [page, setPage] = useState("Home")
+  const [page, setPage] = useState("Contact")
 
   if (page === "Home") {
     return (

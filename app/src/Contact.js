@@ -19,16 +19,22 @@ export default function Contact() {
     };
 
   return (
+<>
 <section>
-  <div className="container">
+<div className="container">
+      <div className="row justify-content-center align-items-center min-vh-100">
+        <div className="col-md-6 text-center">
+          <h3 className="contact-title">Lets Work Together!</h3>
+          <p className="slogan">Email us today for your FREE consultation.</p>
+        </div>
+        <div className="col-md-6 text-center">
     <div className="row">
       <div className="col-md-6 mx-auto">
-        <h2 className="text-center mb-4">Contact Us</h2>
         <form ref={form} onSubmit={sendEmail}>
           <div className="mb-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control border-dark"
               placeholder="Full Name"
               name="user_name"
             />
@@ -36,7 +42,7 @@ export default function Contact() {
           <div className="mb-3">
             <input
               type="email"
-              className="form-control"
+              className="form-control border-dark"
               placeholder="Email"
               name="user_email"
               required
@@ -45,7 +51,7 @@ export default function Contact() {
           <div className="mb-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control border-dark"
               placeholder="Subject"
               name="subject"
               required
@@ -53,7 +59,7 @@ export default function Contact() {
           </div>
           <div className="mb-3">
             <textarea
-              className="form-control"
+              className="form-control border-dark"
               placeholder="Message"
               name="message"
               rows="5"
@@ -63,10 +69,14 @@ export default function Contact() {
           <button type="submit" className="btn btn-dark">Send Message</button>
           </div>
         </form>
+
       </div>
     </div>
   </div>
+  </div>
+  </div>
 </section>
 
+</>
   )
 }

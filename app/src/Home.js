@@ -46,7 +46,7 @@ export default function Home(props) {
           </div>
         </div>
         <div className="col-sm-4 text-center">
-        <div className="card custom-card" style={{ width: "20rem" }}>
+        <div className="card custom-card pb-5" style={{ width: "20rem" }}>
             <img src={Ecom} className="card-img-top" alt="Web Developer Graphic" />
             <div className="card-body">
           <h3 className="slogan">E-Commerce Solutions</h3>
