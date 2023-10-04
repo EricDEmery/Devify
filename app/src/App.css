@@ -70,10 +70,23 @@
 }
 
 .img-style {
-  max-height: 100%;
+  max-width: 100%;
 }
 
 .contact-title {
   font-family: Orbitron, sans-serif;
-  font-size: 80px;
+  font-size: 70px;
+}
+
+.custom-form {
+  max-width: 50%;
+  padding-left: 50px;
+}
+
+.custom-column {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.body {
+  overflow-x: hidden;
 }

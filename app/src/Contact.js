@@ -1,6 +1,7 @@
 import React from 'react'
 import {useRef} from 'react'
 import emailjs from '@emailjs/browser';
+import ContactUs from "./img/ContactUs.png";
 
 export default function Contact() {
 
@@ -21,16 +22,16 @@ export default function Contact() {
   return (
 <>
 <section>
-<div className="container">
-      <div className="row justify-content-center align-items-center min-vh-100">
-        <div className="col-md-6 text-center">
-          <h3 className="contact-title">Lets Work Together!</h3>
-          <p className="slogan">Email us today for your FREE consultation.</p>
+        <div className="container-fluid body">
+            <h3 className="contact-title text-center pt-5">Lets Work Together!</h3>
+          <p className="slogan text-center">Email us today for your FREE consultation.</p>
         </div>
+      <div className="row justify-content-center pt-5">
         <div className="col-md-6 text-center">
-    <div className="row">
-      <div className="col-md-6 mx-auto">
-        <form ref={form} onSubmit={sendEmail}>
+          <img src={ContactUs} className="img-custom"/>
+          </div>
+        <div className="col-md-6 text-center custom-column">
+        <form ref={form} onSubmit={sendEmail} className="custom-form pt-3">
           <div className="mb-3">
             <input
               type="text"
@@ -72,9 +73,6 @@ export default function Contact() {
 
       </div>
     </div>
-  </div>
-  </div>
-  </div>
 </section>
 
 </>
